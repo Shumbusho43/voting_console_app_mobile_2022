@@ -178,12 +178,12 @@ string listCandidates()
         else
         {
             // Print table header
-            cout << left<<setw(15) << "Names"
-                      << setw(15) << "nationalID"
-                      << setw(15) << "profilePic"
-                      << setw(15) << "Gender"
-                      << setw(25) << "missionStat"
-                      << setw(10) << "votes" << endl;
+            cout << left << setw(15) << "Names"
+                 << setw(15) << "nationalID"
+                 << setw(15) << "profilePic"
+                 << setw(15) << "Gender"
+                 << setw(25) << "missionStat"
+                 << setw(10) << "votes" << endl;
             std::cout << "------------------------------------------------------------------------------------------" << endl;
             // get all candidate
             string myData;
